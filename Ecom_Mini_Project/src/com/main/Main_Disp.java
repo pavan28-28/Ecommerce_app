@@ -7,11 +7,10 @@ public class Main_Disp {
 		// TODO Auto-generated method stub
 
 		Scanner x=new Scanner(System.in);		
-		int ch,ch1;
+		int ch,pd,uo;
 		
 		do {
 		System.out.println("******** >> Welcome To Ecommerse Application << ********");
-		
 		
 		
 		System.out.println("\n 1-Registered User  \n 2-Admin \n 3-Guest User \n 4-Exit");
@@ -22,7 +21,34 @@ public class Main_Disp {
 		switch(ch)
 		{
 		case 1:
-
+            do
+            {
+            	System.out.println("****User Operation*****");
+            	System.out.println("\n 1-User Registration \n 2-User Login \n 3-View Product Item as Sorted Order \n 4-Buy Product \n 5-View Cart \n 6-Purchase Item \n 7-Exit");
+            	System.out.println("Select Your Choice");
+            	uo=x.nextInt();
+            	
+            	switch(uo)
+            	{
+            	case 1:
+            		break;
+            	case 2:
+            		break;
+            	case 3:
+            		break;
+            	case 4:
+            		break;
+            	case 5:
+            		break;
+            	case 6:
+            		break;
+            	case 7:
+            		System.out.println();
+            		break;
+            	default:
+            		System.out.println("Wrong choice Enter again");
+            	}
+            }while(uo!=7);
 			
 			break;
 			
@@ -32,11 +58,11 @@ public class Main_Disp {
 					+ "\n 4-Check Quantity  \n 5-check Registered Users \n 6-Check The Particular History \n 7-Exit");
 			
 			System.out.println("Select your choice");
-			ch1=x.nextInt();
+			pd=x.nextInt();
 			
 			 
 			 
-			 switch(ch1)
+			 switch(pd)
 			 {
 			 case 1:
 			
@@ -61,39 +87,27 @@ public class Main_Disp {
 				 break;
 
 			 case 2:
-				 
 				 break;
-
-			 case 3:
-				 
+			 case 3:			 
 				 break;
-
-			 case 4:
-				 
+			 case 4:				 
 				 break;
-
-			 case 5:
-				 
+			 case 5:				 
 				 break;
-
-			 case 6:
-				 
-				 break;
-				 
+			 case 6:				 
+				 break;				 
 			 case 7:
 				 System.out.println();
 				 break;
 			default:
-				System.out.println("Enter the Wrong Choice Enter again");
-				 
+				System.out.println("Enter the Wrong Choice Enter again");	 
 			 }
-			}while(ch1!=7);
+			}while(pd!=7);
+			
 			break;
 			
 		case 3:
-			
-			break;
-		
+			break;		
 		case 4:
 			System.out.println("\n\n *****THank You*****");
 			break;
