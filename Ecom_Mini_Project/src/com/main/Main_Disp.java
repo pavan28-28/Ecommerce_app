@@ -1,5 +1,6 @@
 package com.main;
 import java.util.Scanner;
+import com.user.*;
 import com.adminMain.*;
 public class Main_Disp {
 
@@ -31,6 +32,28 @@ public class Main_Disp {
             	switch(uo)
             	{
             	case 1:
+            		System.out.println("Enter the First Name:");
+            		String Fname=x.next();
+
+            		System.out.println("Enter the Last Name:");
+            		String Lname=x.next();
+
+            		System.out.println("Enter the User Name:");
+            		String Username=x.next();
+
+            		System.out.println("Enter the Password:");
+            		String Password=x.next();
+
+            		System.out.println("Enter the City Name:");
+            		String City=x.next();
+
+            		System.out.println("Enter the Email:");
+            		String Email=x.next();
+
+            		System.out.println("Enter the Phone Number:");
+            		String Phone=x.next();
+            		
+            		 User_Registration.insertUserDetails(Fname, Lname,Username,Password,City,Email,Phone);
             		break;
             	case 2:
             		break;
