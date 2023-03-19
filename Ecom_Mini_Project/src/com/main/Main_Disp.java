@@ -113,7 +113,12 @@ public class Main_Disp {
 				 break;
 			 case 3:			 
 				 break;
-			 case 4:				 
+			 case 4:
+				 
+				 System.out.println("Enter the Product ID:");
+				 int id=x.nextInt();
+				 
+				 CheckQuantity.quantity(id);
 				 break;
 			 case 5:				 
 				 break;
